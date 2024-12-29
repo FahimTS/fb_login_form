@@ -26,6 +26,7 @@ if (!email.value && !password.value) {
     }
 }
 
-fb_btn.addEventListener('click', () => {
+fb_btn.addEventListener('click', (e) => {
+    e.preventDefault();
     myCall();
 });
