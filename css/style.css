@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    background: #F2F4F7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook_page{
+    background: #F2F4F7;
+}
+.facebook_page p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.fb_logo img {
+    width: 244px;
+}
+.fb_logo {
+    text-align: center;
+}
+.fb_login_form {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    width: 396px;
+}
+
+.fb_login_form h3 {
+    color: #1C1E21;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+.form_feild input {
+    width: 100%;
+    padding: 14px 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.fb_btn button {
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 20px;
+    color: #fff;
+    background: #166FE5;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.fb_login_form a {
+    color: #166FE5;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.validate {
+    background: #FFEBE8;
+    border: 1px solid #dd3c10;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    display: none;
+}
